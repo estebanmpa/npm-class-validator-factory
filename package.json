@@ -1,0 +1,32 @@
+{
+  "name": "class-validator-factory",
+  "version": "0.0.1",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "type": "module",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsup"
+  },
+  "keywords": [
+    "class-validator"
+  ],
+  "author": "Esteban Mariano Piga Alessi",
+  "license": "MIT",
+  "description": "Factory to create a validated instance using class validator from non validated data",
+  "repository": {
+    "url": "git+https://github.com/estebanmpa/npm-class-validator-factory.git"
+  },
+  "devDependencies": {
+    "tsup": "^8.3.5",
+    "typescript": "^5.7.2"
+  },
+  "dependencies": {
+    "class-transformer": "^0.5.1",
+    "class-validator": "^0.14.1"
+  },
+  "bugs": {
+    "url": "https://github.com/estebanmpa/npm-class-validator-factory/issues"
+  },
+  "homepage": "https://github.com/estebanmpa/npm-class-validator-factory#readme"
+}
