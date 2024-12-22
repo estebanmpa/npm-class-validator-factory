@@ -3,7 +3,7 @@
 [![npm version](https://img.shields.io/npm/v/class-validator-factory)](https://www.npmjs.com/package/class-validator-factory)
 ![libraries.io](https://img.shields.io/librariesio/release/npm/class-validator-factory)
 
-A utility for creating a validated instance of a class-validator type from a new object. If validation fails, it throws a validation exception containing a detailed list of errors.
+A utility for creating a validated instance of a class-validator decorated object from a plain object. If validation fails, it throws a validation exception containing a detailed list of errors.
 
 ## Usage
 Here's a quick example to get started:
