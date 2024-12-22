@@ -45,24 +45,24 @@ In the event of a validation error, the raised `ValidationError` exception inclu
 ```json
 [
   {
-    target: {
-      title: 'Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet',
-      timestamp: 'Sun Dec 22 2024 01:07:45 GMT-0300 (Argentina Standard Time)'
+    "target": {
+      "title": "Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet",
+      "timestamp": "Sun Dec 22 2024 01:07:45 GMT-0300 (Argentina Standard Time)"
     },
-    value: 'Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet',
-    property: 'title',
-    children: [],
-    constraints: { maxLength: 'Title is too long' }
+    "value": "Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet",
+    "property": "title",
+    "children": [],
+    "constraints": { "maxLength": "Title is too long" }
   },
   {
-    target: {
-      title: 'Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet',
-      timestamp: 'Sun Dec 22 2024 01:07:45 GMT-0300 (Argentina Standard Time)'
+    "target": {
+      "title": "Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet",
+      "timestamp": "Sun Dec 22 2024 01:07:45 GMT-0300 (Argentina Standard Time)"
     },
-    value: 'Sun Dec 22 2024 01:07:45 GMT-0300 (Argentina Standard Time)',
-    property: 'timestamp',
-    children: [],
-    constraints: { isDateString: 'timestamp must be a valid ISO 8601 date string' }
+    "value": "Sun Dec 22 2024 01:07:45 GMT-0300 (Argentina Standard Time)",
+    "property": "timestamp",
+    "children": [],
+    "constraints": { "isDateString": "timestamp must be a valid ISO 8601 date string" }
   }
 ]
 ```
